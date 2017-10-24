@@ -1,6 +1,7 @@
-public class Emp{
+public class Emp{ 
    private Integer empno;
    private String ename;
+   private String loc;
    public void setEmpno(Integer empno){
      this.empno=empno;
 }
@@ -13,4 +14,5 @@ public Integer getEmpno(){
 public String getEname(){
   return this.ename;
 }
+  
 }
